@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="products-box.jpg" alt="producto-software" class="card-img-top">
+            <div class="card-body">
+                <h4>$ 30</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nobis. Beatae earum voluptatibus
+                    ipsa aliquam?</p>
+            </div>
+            <div class="card-footer">
+                <form action="/checkout" method="POST">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                        data-key="pk_test_uJrQzthSX00FhC3U95w2JZjB00Wf8MAmUt" data-amount="3000" data-name="HARD DRIVE TOOLS DVD"
+                        data-description="Hiren boot cd"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png" data-locale="auto"
+                        data-currency="mxn">
+                        </script>
+                        <button class="btn btn-primary btn-block">
+                            <i class="fa fa-shopping-cart"></i> Buy
+                        </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+</script>
