@@ -1,7 +1,6 @@
 ## Stripe checkout example NodeJs
 I made this app triyng to practice about the STRIPE API and make secure payments using NodeJs.
 
-
 ## Install
 
 1. Clone this repository using git.
